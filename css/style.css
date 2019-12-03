@@ -1,0 +1,44 @@
+body {
+    height: 800px;
+    margin-bottom: auto;
+    background-image: url(../images/emptypaintingcanvas);
+    background-position: center;
+    background-size: cover;    
+}
+
+.container {
+    margin: auto;
+    margin-top: 90px;
+    width: 50%;
+    display: grid;
+    border: solid black 1px;
+    height: 500px;
+    width: 500px;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+    width: 550px;
+    height: 30px;
+}
+
+.buttons button {
+    width: 200px;
+    display: inline-block;
+}
+
+#btnClear {
+    float: left;
+}
+
+#btnColourful {
+    float: right;
+}
+
+
+.gridBoxHover {
+    background-color: black;
+}
